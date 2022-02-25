@@ -1,3 +1,4 @@
+<pre>
 # codecamp
 Main github repository of code.camp Backend course(2nd period).
 This repo was created for project management purposes during 2nd period. 
@@ -7,3 +8,4 @@ This repo was created for project management purposes during 2nd period.
 # precamp
 Sub-repository of pre-education course before 2nd period.
 백엔드 코스(2기) 시작 전 진행되는 사전 교육 과정의 리포지토리입니다.
+</pre>
