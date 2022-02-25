@@ -1,3 +1,4 @@
+<pre>
 # codecamp
 Main github repository of code.camp Backend course(2nd period). 
 코드캠프 백엔드 코스(2기)의 메인 깃허브 리포지토리입니다. 
@@ -13,3 +14,4 @@ I was made clones a personal web page named 'minihompy', from terminated Korean 
 # Tech stacks
 This project was constructed by HTML, CSS, Javascript.
 본 프로젝트는 HTML, CSS, Javascript의 3가지 요소로 구성되었습니다.
+</pre>
