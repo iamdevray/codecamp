@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>회원가입 :: 코드캠프</title>
+    <link rel="stylesheet" href="./final.css">
+</head>
+<body>
+    <div class="form">
+        <div class="form__header">
+            <div class="headerTitle">코드캠프 회원가입</div>
+        </div>
+        <div class="form__body">
+            <div class="inputText">
+                <input id="register" type="email" placeholder="이메일을 입력해 주세요.">
+                <input id="register" type="name" placeholder="이름을 입력해 주세요.">
+                <input id="register" type="password1" placeholder="비밀번호를 입력해 주세요.">
+                <input id="register" type="password2" placeholder="비밀번호를 다시 입력해 주세요.">
+                <div class="inputNum">
+                    <input id="phone1" type="text" oninput="" maxlength="3"> <span id="bar">-</span> 
+                    <input id="phone2" type="text" oninput="" maxlength="4"> <span id="bar">-</span> 
+                    <input id="phone3" type="text" oninput="" maxlength="4">
+                </div>
+                <div class="authNum">
+                    <div class="tokenNum">000000</div>
+                    <button id="sendToken" onclick="">인증번호 전송</button>
+                </div>
+                <div class="authTime">
+                    <div class="tokenTime">00:00</div>
+                    <button id="takenToken" onclick="">인증 완료</button>
+                </div>
+                <select id="place">
+                    <option disabled selected>지역을 선택하세요</option>
+                    <option>서울</option>
+                    <option>경기</option>
+                    <option>인천</option>
+                </select>
+                <div class="gender">
+                    <input id="rd" type="radio"> 여성 &nbsp; &nbsp;
+                    <input id="rd" type="radio"> 남성
+                </div>
+                <div class="divideLine"></div>
+                <div class="submit">
+                    <button id="infoSubmit">가입하기</button>
+                </div>
+            </div>         
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+    .redborder {
+        border: 1px solid red;
+    }
+        
+    .blueborder {
+        border: 1px solid blue;    
+    }
+
+    .btn {
+        width: 100px;
+        height: 100px;
+         border: 2px dotted green;
+    }
+
+    .btn:hover {
+         background-color: green;
+        color: white;
+    }
+   
